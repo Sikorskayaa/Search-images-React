@@ -1,0 +1,15 @@
+.btn {
+  border: 1px solid #111;
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 10px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: rgba(0, 51, 255, 0.836);
+}
