@@ -1,15 +1,21 @@
 .btn {
-  border: 1px solid #111;
-  border-radius: 5px;
-  background-color: transparent;
-  padding: 10px;
-  cursor: pointer;
   display: block;
   margin: 0 auto;
+  padding: 12px;
+  text-transform: uppercase;
+  border-radius: 7px;
+  border: 1px solid transparent;
+  background-color: #be41d1;
+  color: #fff;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 400;
   margin-bottom: 15px;
 }
 
 .btn:hover,
 .btn:focus {
-  background-color: rgba(0, 51, 255, 0.836);
+  background-color: #a701eefc;
+  border: none;
 }

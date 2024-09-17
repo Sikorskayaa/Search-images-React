@@ -7,10 +7,10 @@ const Loader = () => {
         visible={true}
         height="80"
         width="80"
-        color="#0e058f"
+        color="#8d058f"
         radius="9"
         ariaLabel="three-dots-loading"
-        wrapperStyle={{}}
+        wrapperStyle={{ justifyContent: "center" }}
         wrapperClass=""
       />
     </div>
